@@ -1,0 +1,15 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: Arial, Helvetica, sans-serif; background: #f5f7fb; color: #172033; }
+.container { max-width: 1100px; margin: 0 auto; padding: 64px 24px; }
+.hero { margin-bottom: 32px; }
+.eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .14em; opacity: .65; }
+h1 { font-size: clamp(36px, 6vw, 64px); line-height: 1; margin: 12px 0 20px; }
+h2 { margin-top: 0; }
+.hero p { max-width: 720px; font-size: 18px; line-height: 1.6; color: #566176; }
+.card { background: white; border: 1px solid #e5e9f0; border-radius: 18px; padding: 28px; box-shadow: 0 8px 30px rgba(20, 30, 50, .06); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.importer { border: 1px solid #e5e9f0; border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 6px; }
+.importer span { font-family: monospace; font-size: 12px; opacity: .6; }
+.importer small { color: #667085; line-height: 1.4; }
